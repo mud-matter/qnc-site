@@ -1,0 +1,190 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 40;
+	padding-top: 0px;
+	overflow-x: hidden;
+	
+}
+
+/* For Logo when it is H1, and not img. */
+
+/* h1 {
+	margin-left: 6%;
+	font-family: Arial;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	font-size: 40px;
+} */
+
+/* .logo {
+	font-size: 50px;
+} */
+
+/* h1:hover { 
+	opacity: 0.1;
+} */
+
+/* logo has a padding */
+
+.logo {
+	padding-left: 5%;
+	height: 8em;
+}
+
+/* logo is less opaque during hover */
+
+.logo:hover {
+	opacity: 0.2;
+}
+
+/* h2, the text for the horizontal navigation menu */
+h2 {
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 10%;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2:hover {
+	text-decoration: underline;
+}
+
+/* line break between nav bar and text below */
+.line {
+	border: 1px dotted black;
+	width: 93%
+}
+
+/* text for the page title */
+h3 {
+	font-family: Arial;
+	font-weight: lighter;
+	font-size: 35px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* written text, main text for the page */
+/* p {
+	text-align: justify;
+} */
+
+.text {
+	text-align: justify;
+	padding-left: 36%;
+	font-family: 'Helvetica';
+	font-size: 17px;
+}
+
+
+/* code for the nav bar */
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative; 
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 160px;
+	z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+	color: black;
+	padding: 5% 5%;
+	text-decoration: none;
+	display: block;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 15px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {text-decoration: line-through;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown-content:hover {background-color:white;	
+} 
+
+  .flex-grid {
+	display: flex;
+  }
+  .col {
+	flex: 1;
+  }
+
+/*blinking for entrance page*/
+.blink {
+	animation: opacity 4s ease-in-out infinite;
+    opacity: 1;
+}
+
+.blink1 {
+	animation: opacity1 8s ease-in-out infinite;
+	opacity: 1;
+}
+
+.blink2 {
+	animation: opacity2 16s ease-in-out infinite;
+	opacity: 1;
+}
+
+
+
+ @keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0
+  }
+
+  50% {
+	  opacity: 1;
+  }
+} 
+
+@keyframes opacity1 {
+	0% {
+	  opacity: 1;
+	}
+  
+	20% {
+	  opacity: 0
+	}
+  
+	40% {
+	  opacity: 1;
+	}
+  } 
+
+  @keyframes opacity2 {
+	0% {
+	  opacity: 1;
+	}
+  
+	20% {
+	  opacity: 0
+	}
+  
+	40% {
+	  opacity: 1;
+	}
+  } 
+
