@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    margin-left: 10%;
+	margin-right: 10%;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .logo {
+    font-size: 450%;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top: 1%;
+    text-align: center;
+  }
+
+  .logo:hover {
+	opacity: 0.3;
+    }
+  
+  .content {
+    width: 80%;
+    display: flex;
+    margin: 0 10%;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .vertical-line {
+    width: 1px;
+    background-color: #000;
+    margin: 0 20px;
+  }
+  
+  a
+  {
+    text-decoration: none;
+    color: #000;
+  }
+  /* Rest of your CSS styles */
+  

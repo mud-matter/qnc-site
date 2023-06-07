@@ -7,10 +7,46 @@ body {
 	justify-content: center;
 }
 
-.container {
+.title {
+	text-align: center;
+	margin-top: 20px;
+  }
+
+/* .container {
 	width: 80%; /* Set the width of the container to 80% */
-	margin-left: 10%; /* Set the left margin to 10% */
-	margin-right: 10%; /* Set the right margin to 10% */
+	/* margin-left: 10%; /* Set the left margin to 10% */
+	/* margin-right: 10%; Set the right margin to 10% */
+	/* display: flex; */ */
+  /* } */ */
+
+  /* .logo {
+	font-size: 40px;
+	letter-spacing: 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: bolder;
+  } */
+  
+  .container {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+  }
+  
+  .left-content,
+  .right-content {
+	flex: 1;
+	padding: 20px;
+  }
+  
+  .vertical-line {
+	width: 1px;
+	background-color: #000;
+	height: 100%;
+	margin: 0 20px;
   }
 /* For Logo when it is H1, and not img. */
 
@@ -28,7 +64,7 @@ body {
 	letter-spacing: 3px;
 	text-align: center;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-weight: bolder;
+	font-weight: bolder; 
 }
 
 /* h1:hover { 
@@ -48,6 +84,7 @@ h2 {
 	padding-left: 10%;
 	font-family: 'Nanum Gothic', sans-serif;
 }
+
 
 h2:hover {
 	text-decoration: underline;
