@@ -33,6 +33,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	margin-top: 20px;
   }
   
@@ -167,63 +168,5 @@ a {
 	flex: 1;
   }
 
-/*blinking for entrance page*/
-.blink {
-	animation: opacity 4s ease-in-out infinite;
-    opacity: 1;
-}
 
-.blink1 {
-	animation: opacity1 8s ease-in-out infinite;
-	opacity: 1;
-}
-
-.blink2 {
-	animation: opacity2 16s ease-in-out infinite;
-	opacity: 1;
-}
-
-
-
- @keyframes opacity {
-  0% {
-    opacity: 1;
-  }
-
-  25% {
-    opacity: 0
-  }
-
-  50% {
-	  opacity: 1;
-  }
-} 
-
-@keyframes opacity1 {
-	0% {
-	  opacity: 1;
-	}
-  
-	20% {
-	  opacity: 0
-	}
-  
-	40% {
-	  opacity: 1;
-	}
-  } 
-
-  @keyframes opacity2 {
-	0% {
-	  opacity: 1;
-	}
-  
-	17% {
-	  opacity: 0
-	}
-  
-	37% {
-	  opacity: 1;
-	}
-  } 
 
